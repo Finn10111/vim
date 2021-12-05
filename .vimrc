@@ -3,6 +3,8 @@
 " cd ~
 " ln -s path/to/repo/vim .vim
 " ln -s ~/.vim/.vimrc .
+" cd .vim
+" git submodule update --init --recursive
 " optional: copy local vimrc to do custom settings:
 " cp ~/.vim/.vimrc.local .
 "
