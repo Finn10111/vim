@@ -1,0 +1,33 @@
+[submodule "plugins/start/nerdtree"]
+	path = plugins/start/nerdtree
+	url = https://github.com/scrooloose/nerdtree
+[submodule "plugins/start/nerdtree-git-plugin"]
+	path = plugins/start/nerdtree-git-plugin
+	url = https://github.com/Xuyuanp/nerdtree-git-plugin
+[submodule "colors/start/happyhacking"]
+	path = colors/start/happyhacking
+	url = https://gitlab.com/yorickpeterse/happy_hacking.vim.git
+[submodule "plugins/start/lightline"]
+	path = plugins/start/lightline
+	url = https://github.com/itchyny/lightline.vim
+[submodule "plugins/start/vim-fugitive"]
+	path = plugins/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule "plugins/start/nerdcommenter"]
+	path = plugins/start/nerdcommenter
+	url = https://github.com/preservim/nerdcommenter
+[submodule "syntax/start/ale"]
+	path = syntax/start/ale
+	url = https://github.com/dense-analysis/ale
+[submodule "plugins/start/ctrlp"]
+	path = plugins/start/ctrlp
+	url = https://github.com/ctrlpvim/ctrlp.vim
+[submodule "plugins/start/ctags"]
+	path = plugins/start/ctags
+	url = https://github.com/universal-ctags/ctags
+[submodule "syntax/opt/YouCompleteMe"]
+	path = syntax/opt/YouCompleteMe
+	url = https://github.com/ycm-core/YouCompleteMe
+[submodule "plugins/opt/vim-devicons"]
+	path = plugins/opt/vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons

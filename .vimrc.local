@@ -1,0 +1,13 @@
+" You may copy this file to your home dir to 
+" do some custom settings or load optional
+" packs if you need to.
+
+" to install YouCompleteMe do the following:
+" cd ~/.vim/pack/syntax/opt/YouCompleteMe/
+" python3 install.py --all
+
+" load YouCompleteMe
+:packadd YouCompleteMe
+
+" load vim-devicons
+:packadd vim-devicons
