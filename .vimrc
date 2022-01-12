@@ -41,10 +41,11 @@ set shiftwidth=4
 set smarttab
 set expandtab
 
+syntax on
+
 " Enable highlighting of the current line
 set cursorline
-
-syntax on
+highlight CursorLine ctermbg=Black
 
 " include custom vimrc
 " Function to source only if file exists {
