@@ -49,7 +49,11 @@ set shiftwidth=4
 set smarttab
 set expandtab
 
+" enable syntax highlighting
 syntax on
+
+" enable autoindent for new lines
+set autoindent
 
 " Enable highlighting of the current line
 set cursorline
