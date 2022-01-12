@@ -1,17 +1,3 @@
-" Create a symlink to .vim directory and .vimrc file
-" to your homedir:
-" cd ~
-" ln -s path/to/repo/vim .vim
-" ln -s ~/.vim/.vimrc .
-" cd .vim
-" git submodule update --init --recursive
-" optional: copy local vimrc to do custom settings:
-" cp ~/.vim/.vimrc.local .
-"
-" update:
-" git submodule update --remote --merge
-" git commit
-
 """ configuration
 
 filetype plugin on
