@@ -31,3 +31,6 @@
 [submodule "pack/syntax/start/ale"]
 	path = pack/syntax/start/ale
 	url = https://github.com/dense-analysis/ale
+[submodule "pack/plugins/start/vim-gitmoji"]
+	path = pack/plugins/start/vim-gitmoji
+	url = https://github.com/Kachyz/vim-gitmoji.git
