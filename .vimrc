@@ -59,6 +59,9 @@ set autoindent
 set cursorline
 highlight CursorLine ctermbg=Black
 
+" enable vim-gitmoji
+set completefunc=emoji#complete
+
 " include custom vimrc
 " Function to source only if file exists {
 function! SourceIfExists(file)

@@ -76,7 +76,15 @@ Toggle comment state of line or selected lines
 
 ### fugitive.vim
 
-TBD
+Commit
+
+    :Git commit
+
+### vim-gitmoji
+
+While in insert mode (wrting commit message):
+
+    <c-x><c-u>
 
 ### ALE
 
