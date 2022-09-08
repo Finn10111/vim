@@ -7,9 +7,13 @@ My simple vim configuration based on vim's native package support and git (Vim 8
     git clone --recursive https://github.com/Finn10111/vim.git ~/.vim
     ln -s ~/.vim/.vimrc ~/
 
+    # For ALE's python support you need to install flake8
+
 Optionally you can use YouCompleteMe or set other custom configurations:
 
     cp ~/.vim/.vimrc.local .
+    cd ~/.vim/pack/syntax/opt/YouCompleteMe/
+    python3 install.py --all
 
 ## Update
 
@@ -99,4 +103,10 @@ Go to previous or next error
 
 ### YouCompleteMe
 
-TBD
+Force auto completion suggestion
+
+    <C-Space>
+
+Close preview windows
+
+    <c-w>z

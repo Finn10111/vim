@@ -5,9 +5,20 @@
 " to install YouCompleteMe do the following:
 " cd ~/.vim/pack/syntax/opt/YouCompleteMe/
 " python3 install.py --all
+"
+" to update YouCompleteMe do this:
+" git pull --recurse-submodules origin master
 
 " load YouCompleteMe
 :packadd YouCompleteMe
 
+" close preview window after complete, takes a lot of space and is not needed
+" after completion
+let g:ycm_autoclose_preview_window_after_completion = 1
+
 " load vim-devicons
 :packadd vim-devicons
+
+" ignore PEP8 line too long
+let g:ale_python_flake8_args = '--ignore=E501'
+let g:ale_python_flake8_options = '--ignore=E501'

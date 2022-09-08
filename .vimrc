@@ -49,6 +49,8 @@ set shiftwidth=4
 set smarttab
 set expandtab
 
+autocmd FileType javascript,handlebars setl sw=2 sts=2 et
+
 " enable syntax highlighting
 syntax on
 
