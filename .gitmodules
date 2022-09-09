@@ -4,9 +4,6 @@
 [submodule "pack/plugins/opt/vim-devicons"]
 	path = pack/plugins/opt/vim-devicons
 	url = https://github.com/ryanoasis/vim-devicons.git
-[submodule "pack/plugins/start/ctags"]
-	path = pack/plugins/start/ctags
-	url = https://github.com/universal-ctags/ctags
 [submodule "pack/plugins/start/ctrlp"]
 	path = pack/plugins/start/ctrlp
 	url = https://github.com/ctrlpvim/ctrlp.vim

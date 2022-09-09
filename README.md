@@ -23,7 +23,6 @@ Optionally you can use YouCompleteMe or set other custom configurations:
 
 * Happy Hacking color scheme: https://gitlab.com/yorickpeterse/happy_hacking.vim
 * vim-devicons: https://github.com/ryanoasis/vim-devicons
-* universal ctags: https://github.com/universal-ctags/ctags
 * ctrlp.vim: https://github.com/ctrlpvim/ctrlp.vim
 * lightline.vim: https://github.com/itchyny/lightline.vim
 * NERDTree: https://github.com/preservim/nerdtree
