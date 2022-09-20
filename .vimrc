@@ -73,4 +73,8 @@ function! SourceIfExists(file)
 endfunction
 " }
 
+" remap gutentags jump to deifnition
+" TODO: find good key binding, this one is used by ALE
+"nnoremap <C+j> :tselect<CR>
+
 call SourceIfExists("~/.vimrc.local")
