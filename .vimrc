@@ -77,4 +77,7 @@ endfunction
 " TODO: find good key binding, this one is used by ALE
 "nnoremap <C+j> :tselect<CR>
 
+" enable Rainbow Parentheses Improved
+let g:rainbow_active = 1
+
 call SourceIfExists("~/.vimrc.local")

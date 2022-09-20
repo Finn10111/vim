@@ -40,3 +40,6 @@
 [submodule "pack/plugins/start/vim-gitgutter"]
 	path = pack/plugins/start/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
+[submodule "pack/syntax/start/rainbow"]
+	path = pack/syntax/start/rainbow
+	url = https://github.com/luochen1990/rainbow.git
