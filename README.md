@@ -62,7 +62,7 @@ Open CtrlP (just type for easy searching)
 
 Toggle modes (buffer, MRU, files - while CtrlP is open)
 
-    <c-t>
+    <c-f>
 
 ### NERDTree
 
