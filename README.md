@@ -109,3 +109,12 @@ Force auto completion suggestion
 Close preview windows
 
     <c-w>z
+
+GoToDefinition
+
+    <C-g>
+
+Jump back/forward after going to definition using vim's jumplist
+
+    <C-O>
+    <C-I>
