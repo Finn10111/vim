@@ -37,6 +37,9 @@ let g:ale_fixers = {
 \   'javascript': ['eslint'],
 \}
 
+" ALE: Auto-setup PATH for virtual environments (so modules can be found)
+" let b:ale_python_auto_virtualenv = 1
+
 nmap <silent> <C-k> <Plug>(ale_previous_wrap)
 nmap <silent> <C-j> <Plug>(ale_next_wrap)
 
