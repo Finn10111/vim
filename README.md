@@ -13,7 +13,7 @@ Optionally you can use YouCompleteMe or set other custom configurations:
     cd ~/.vim/pack/syntax/opt/YouCompleteMe/
     python3 install.py --all
 
-### Optional dependecies for ALE linters/fixers
+### Optional dependencies for ALE linters/fixers
 
 
 ALE supports a huge list of languages with associated fixers and linters: https://github.com/dense-analysis/ale/blob/master/supported-tools.md
