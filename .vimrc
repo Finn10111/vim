@@ -35,6 +35,9 @@ nnoremap <C-f> :NERDTreeFind<CR>
 let g:ale_fixers = {
 \   '*': ['remove_trailing_lines', 'trim_whitespace'],
 \   'javascript': ['eslint'],
+\   'python': ['autopep8'],
+\   'html': ['html-beautify'],
+\   'htmldjango': ['html-beautify'],
 \}
 
 " ALE: Auto-setup PATH for virtual environments (so modules can be found)

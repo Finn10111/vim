@@ -7,13 +7,32 @@ My simple vim configuration based on vim's native package support and git (Vim 8
     git clone --recursive https://github.com/Finn10111/vim.git ~/.vim
     ln -s ~/.vim/.vimrc ~/
 
-    # For ALE's python support you need to install flake8
-
 Optionally you can use YouCompleteMe or set other custom configurations:
 
     cp ~/.vim/.vimrc.local .
     cd ~/.vim/pack/syntax/opt/YouCompleteMe/
     python3 install.py --all
+
+### Optional dependecies for ALE linters/fixers
+
+
+ALE supports a huge list of languages with associated fixers and linters: https://github.com/dense-analysis/ale/blob/master/supported-tools.md
+Execute the following commands to help you to find available fixers or linters:
+
+    :ALEFixSuggest
+    :ALEInfo
+
+Linters are enabled by default and available if their program is intsalled.
+
+For ALE's python support you need to install for example flake8, eslint for Javascript or for html/htmldjango files use js-beautify:
+
+    # Debian/Ubuntu
+    apt-get install flake8 eslint node-js-beautify python3-autopep8
+
+    # Arch Linux
+    yay -S flake8 eslint js-beautify autopep8
+
+ALE's fixers need to be enabled, some are already enabled in .vimrc but you can modify it to suit your needs and put it in the .vimrc.local file.
 
 ## Update
 
