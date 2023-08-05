@@ -37,7 +37,13 @@ let g:ale_fixers = {
 \   'javascript': ['eslint'],
 \   'python': ['autopep8'],
 \   'html': ['html-beautify'],
-\   'htmldjango': ['html-beautify'],
+\   'htmldjango': ['html-beautify', 'prettier'],
+\   'css': ['prettier'],
+\   'php': ['php_cs_fixer'],
+\}
+
+let g:ale_linters = {
+\   'htmldjango': ['html-beautify', 'prettier'],
 \}
 
 " ALE: Auto-setup PATH for virtual environments (so modules can be found)
@@ -55,7 +61,7 @@ set shiftwidth=4
 set smarttab
 set expandtab
 
-autocmd FileType javascript,handlebars setl sw=2 sts=2 et
+autocmd FileType javascript,handlebars,css setl sw=2 sts=2 et
 
 " enable syntax highlighting
 syntax on
