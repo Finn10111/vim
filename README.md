@@ -27,10 +27,13 @@ Linters are enabled by default and available if their program is intsalled.
 For ALE's python support you need to install for example flake8, eslint for Javascript or for html/htmldjango files use js-beautify:
 
     # Debian/Ubuntu
-    apt-get install flake8 eslint node-js-beautify python3-autopep8 yamllint
+    apt-get install flake8 eslint node-js-beautify python3-autopep8 yamllint php-codesniffer yamllint
 
     # Arch Linux
-    yay -S flake8 eslint js-beautify autopep8 yamllint
+    yay -S flake8 eslint js-beautify autopep8 yamllint php-codesniffer yamllint yamllint
+
+    # others (e.g. yamlfix is not available via apt)
+    pip install yamlfix
 
 ALE's fixers need to be enabled, some are already enabled in .vimrc but you can modify it to suit your needs and put it in the .vimrc.local file.
 

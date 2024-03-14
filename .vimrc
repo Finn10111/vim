@@ -3,7 +3,7 @@
 filetype plugin on
 
 " map leader key to ,
-let mapleader=","
+let mapleader=','
 
 " activate statusline
 set laststatus=2
@@ -40,6 +40,8 @@ let g:ale_fixers = {
 \   'htmldjango': ['html-beautify', 'prettier'],
 \   'css': ['prettier'],
 \   'php': ['php_cs_fixer'],
+\   'json': ['jq'],
+\   'yaml': ['yamlfix'],
 \}
 
 let g:ale_linters = {
@@ -47,7 +49,7 @@ let g:ale_linters = {
 \}
 
 " ALE: Auto-setup PATH for virtual environments (so modules can be found)
-" let b:ale_python_auto_virtualenv = 1
+let b:ale_python_auto_virtualenv = 1
 
 nmap <silent> <C-k> <Plug>(ale_previous_wrap)
 nmap <silent> <C-j> <Plug>(ale_next_wrap)
@@ -61,7 +63,7 @@ set shiftwidth=4
 set smarttab
 set expandtab
 
-autocmd FileType javascript,handlebars,css setl sw=2 sts=2 et
+autocmd FileType javascript,handlebars,css,vue setl sw=2 sts=2 et
 
 " enable syntax highlighting
 syntax on
@@ -91,5 +93,12 @@ endfunction
 
 " enable Rainbow Parentheses Improved
 let g:rainbow_active = 1
+
+" ctrlp.vim: exclude some directories
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '(\v[\/]\.(git|hg|svn)|((bin/|lib/))',
+  \ 'file': '\v\.(exe|so|dll)$',
+  \ 'link': 'some_bad_symbolic_links',
+  \ }
 
 call SourceIfExists("~/.vimrc.local")
