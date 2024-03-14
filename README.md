@@ -22,7 +22,7 @@ Execute the following commands to help you to find available fixers or linters:
     :ALEFixSuggest
     :ALEInfo
 
-Linters are enabled by default and available if their program is intsalled.
+Linters are enabled by default and available if their program is installed.
 
 For ALE's python support you need to install for example flake8, eslint for Javascript or for html/htmldjango files use js-beautify:
 
