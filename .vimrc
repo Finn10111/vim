@@ -46,6 +46,7 @@ let g:ale_fixers = {
 
 let g:ale_linters = {
 \   'htmldjango': ['html-beautify', 'prettier'],
+\   'json': ['jq'],
 \}
 
 " ALE: Auto-setup PATH for virtual environments (so modules can be found)
@@ -90,6 +91,10 @@ endfunction
 " remap gutentags jump to deifnition
 " TODO: find good key binding, this one is used by ALE
 "nnoremap <C+j> :tselect<CR>
+
+" YouCompleteMe GoToDefinition
+" https://github.com/ycm-core/YouCompleteMe?tab=readme-ov-file#goto-commands
+nnoremap <C+g> :YcmCompleter GoToDefinition
 
 " enable Rainbow Parentheses Improved
 let g:rainbow_active = 1
