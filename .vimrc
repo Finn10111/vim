@@ -42,11 +42,13 @@ let g:ale_fixers = {
 \   'php': ['php_cs_fixer'],
 \   'json': ['jq'],
 \   'yaml': ['yamlfix'],
+\   'c': ['astyle']
 \}
 
 let g:ale_linters = {
 \   'htmldjango': ['html-beautify', 'prettier'],
 \   'json': ['jq'],
+\   'c': ['astyle']
 \}
 
 " ALE: Auto-setup PATH for virtual environments (so modules can be found)
