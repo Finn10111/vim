@@ -43,6 +43,7 @@ ALE's fixers need to be enabled, some are already enabled in .vimrc but you can 
 
 ## Included plugins
 
+* Everforest color scheme: https://github.com/sainnhe/everforest (enabled by default)
 * Happy Hacking color scheme: https://gitlab.com/yorickpeterse/happy_hacking.vim
 * vim-devicons: https://github.com/ryanoasis/vim-devicons
 * ctrlp.vim: https://github.com/ctrlpvim/ctrlp.vim

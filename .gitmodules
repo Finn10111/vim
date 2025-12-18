@@ -43,3 +43,6 @@
 [submodule "pack/syntax/start/rainbow"]
 	path = pack/syntax/start/rainbow
 	url = https://github.com/luochen1990/rainbow.git
+[submodule "pack/colors/start/everforest"]
+	path = pack/colors/start/everforest
+	url = https://github.com/sainnhe/everforest.git

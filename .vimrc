@@ -21,7 +21,7 @@ let g:lightline = {
       \ }
 
 " set color scheme
-colorscheme happy_hacking
+colorscheme everforest
 
 """ mappings
 
