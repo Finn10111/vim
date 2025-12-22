@@ -42,14 +42,18 @@ let g:ale_fixers = {
 \   'php': ['php_cs_fixer'],
 \   'json': ['jq'],
 \   'yaml': ['yamlfix'],
-\   'c': ['astyle']
+\   'c': ['astyle'],
+\   'xml': ['xmllint'],
 \}
 
 let g:ale_linters = {
 \   'htmldjango': ['html-beautify', 'prettier'],
 \   'json': ['jq'],
-\   'c': ['astyle']
+\   'c': ['astyle'],
+\   'xml': ['xmllint'],
 \}
+
+let g:ale_xml_xmllint_options = '--format'
 
 " ALE: Auto-setup PATH for virtual environments (so modules can be found)
 let b:ale_python_auto_virtualenv = 1
