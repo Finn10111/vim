@@ -1,5 +1,36 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+    "config:recommended",
+    ":dependencyDashboard"
+  ],
+  "packageRules": [
+    {
+      "description": "Auto-merge Forgejo/GitHub Actions workflow updates",
+      "matchFileNames": [
+        ".forgejo/workflows/**"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest"
+      ],
+      "automerge": true,
+      "automergeType": "pr",
+      "automergeStrategy": "squash"
+    },
+    {
+      "description": "Auto-merge all dependency updates when tests pass",
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "automerge": true,
+      "automergeType": "pr",
+      "automergeStrategy": "squash"
+    }
+  ],
   "git-submodules": {
     "enabled": true
   }
