@@ -24,7 +24,9 @@
       "description": "Auto-merge minor and patch dependency updates",
       "matchUpdateTypes": [
         "minor",
-        "patch"
+        "patch",
+        "pin",
+        "digest"
       ],
       "automerge": true,
       "automergeType": "pr",
