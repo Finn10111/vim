@@ -31,6 +31,11 @@
       "schedule": ["before 3am on the first day of the month"]
     },
     {
+      "description": "Git submodules weekly schedule",
+      "matchManagers": ["git-submodules"],
+      "schedule": ["before 3am every weekend"]
+    },
+    {
       "description": "Auto-merge minor and patch dependency updates",
       "matchUpdateTypes": [
         "minor",
