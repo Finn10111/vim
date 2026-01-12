@@ -6,9 +6,6 @@
   ],
   "schedule": ["before 3am every weekend"],
   "timezone": "Europe/Berlin",
-  "ignoreDeps": [
-    "renovate/renovate"
-  ],
   "packageRules": [
     {
       "description": "Auto-merge Forgejo Actions workflow updates",
@@ -26,7 +23,11 @@
       "automergeStrategy": "squash"
     },
     {
-      "matchPackageNames": ["data.forgejo.org/renovate/renovate"],
+      "description": "Update Renovate itself monthly",
+      "matchPackageNames": [
+        "data.forgejo.org/renovate/renovate",
+        "renovate/renovate"
+      ],
       "schedule": ["before 3am on the first day of the month"]
     },
     {
