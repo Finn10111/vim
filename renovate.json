@@ -4,6 +4,8 @@
     "config:recommended",
     ":dependencyDashboard"
   ],
+  "schedule": ["before 3am every weekend"],
+  "timezone": "Europe/Berlin",
   "ignoreDeps": [
     "renovate/renovate"
   ],
