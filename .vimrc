@@ -70,10 +70,14 @@ set shiftwidth=4
 set smarttab
 set expandtab
 
-autocmd FileType javascript,handlebars,css,vue setl sw=2 sts=2 et
+
 
 " enable syntax highlighting
 syntax on
+
+" handlebars formatting
+autocmd FileType javascript,handlebars,css,vue setl sw=2 sts=2 et
+
 
 " enable autoindent for new lines
 set autoindent
