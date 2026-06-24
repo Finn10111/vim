@@ -46,3 +46,6 @@
 [submodule "pack/colors/start/everforest"]
 	path = pack/colors/start/everforest
 	url = https://github.com/sainnhe/everforest.git
+[submodule "pack/syntax/start/jinja"]
+	path = pack/syntax/start/jinja
+	url = https://github.com/HiPhish/jinja.vim.git
