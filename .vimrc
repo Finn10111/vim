@@ -75,8 +75,11 @@ set expandtab
 " enable syntax highlighting
 syntax on
 
+" Jinja
+autocmd BufNewFile,BufRead *.njk set filetype=htmldjango
+
 " handlebars formatting
-autocmd FileType javascript,handlebars,css,vue setl sw=2 sts=2 et
+autocmd FileType javascript,handlebars,css,vue,htmldjango setl sw=2 sts=2 et
 
 
 " enable autoindent for new lines
